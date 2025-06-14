@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <title>Login Page</title>
+                <style>
+                        body {
+                                        font-family: Arial, sans-serif;
+                                                    background-color: #f2f2f2;
+                                                                display: flex;
+                                                                            justify-content: center;
+                                                                                        align-items: center;
+                                                                                                    height: 100vh;
+                        }
+                                .login-container {
+                                                background-color: white;
+                                                            padding: 20px 30px;
+                                                                        border-radius: 8px;
+                                                                                    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                                                                                                width: 300px;
+                                }
+                                        .login-container h2 {
+                                                        margin-bottom: 20px;
+                                                                    text-align: center;
+                                        }
+                                                .login-container label {
+                                                                display: block;
+                                                                            margin-bottom: 6px;
+                                                                                        font-weight: bold;
+                                                }
+                                                        .login-container input[type="text"],
+                                                                .login-container input[type="password"] {
+                                                                                width: 100%;
+                                                                                            padding: 8px 10px;
+                                                                                                        margin-bottom: 15px;
+                                                                                                                    border: 1px solid #ccc;
+                                                                                                                                border-radius: 4px;
+                                                                }
+                                                                        .login-container input[type="submit"] {
+                                                                                        width: 100%;
+                                                                                                    padding: 10px 0;
+                                                                                                                background-color: #007bff;
+                                                                                                                            border: none;
+                                                                                                                                        color: white;
+                                                                                                                                                    font-weight: bold;
+                                                                                                                                                                border-radius: 4px;
+                                                                                                                                                                            cursor: pointer;
+                                                                        }
+                                                                                .login-container input[type="submit"]:hover {
+                                                                                                background-color: #0056b3;
+                                                                                }
+                                                                                    </style>
+                                                                                    </head>
+                                                                                    <body>
+                                                                                        <div class="login-container">
+                                                                                                <h2>Login</h2>
+                                                                                                        <form action="/login" method="POST">
+                                                                                                                    <label for="username">Username</label>
+                                                                                                                                <input type="text" id="username" name="username" required autocomplete="username" />
+                                                                                                                                            
+                                                                                                                                                        <label for="password">Password</label>
+                                                                                                                                                                    <input type="password" id="password" name="password" required autocomplete="current-password" />
+                                                                                                                                                                                
+                                                                                                                                                                                            <input type="submit" value="Log In" />
+                                                                                                                                                                                                    </form>
+                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                        </body>
+                                                                                                                                                                                                        </html>
+                                                                                                                                                                                                        
+                                                                                }
+                                                                        }
+                                                                }
+                                                }
+                                        }
+                                }
+                        }
