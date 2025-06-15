@@ -4,6 +4,8 @@ Certainly! A login page in HTML is a web form that allows users to authenticate 
 # 1. Basic HTML Structure
 The login page is built using HTML forms. Here's a simple example:
 
+# this all code:-
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +25,9 @@ The login page is built using HTML forms. Here's a simple example:
         <button type="submit">Login</button>
     </form>
 </body>
-</html>
+</html> 
+
+# code end
 
 # 2. Key Components
 
